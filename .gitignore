@@ -1,0 +1,37 @@
+# Derleme cikti dosyalari (Binaries & Objects)
+*.exe
+*.o
+*.obj
+obj/
+bin/
+build/
+*.pdb
+*.ilk
+
+# Kutuphane ve DLL dosyalari
+*.dll
+*.so
+*.dylib
+*.a
+
+# Hassas Kasa ve Kimlik Dogrulama Verileri (Kisisel veriler repoya gitmemelidir!)
+*.dat
+*.tmp
+app_auth.dat
+vault_*.dat
+vault.dat
+
+# IDE ve Editor Yapilandirmalari
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Isletim Sistemi Dosyalari
+.DS_Store
+Thumbs.db
+desktop.ini
